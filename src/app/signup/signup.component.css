@@ -1,0 +1,18 @@
+mat-form-field {
+  width: 20rem;
+}
+
+button {
+  width: 20rem;
+}
+
+section {
+  min-height: 70vh;
+
+}
+
+.login-form {
+  border: 2px solid lightblue;
+  padding: 2rem;
+  border-radius: 1rem;
+}
