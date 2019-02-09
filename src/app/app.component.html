@@ -1,4 +1,23 @@
 <div class="container">
-  <router-outlet></router-outlet>
-
+  <mat-sidenav-container>
+    <mat-sidenav #sideNav role="navigation">
+      <p>I'm the sidenav!</p>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+        <button mat-icon-button (click)="sideNav.toggle()"><mat-icon>menu</mat-icon></button>
+        <div>LOG</div>
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+          <ul fxLayout="row" fxLayoutGap="2rem">
+            <li><a [routerLink]="['/home']">Home</a> </li>
+            <li><a [routerLink]="['/product']">Products</a> </li>
+            <li><a [routerLink]="['/login']">Logout</a> </li>
+          </ul>
+        </div>
+      </mat-toolbar>
+      <main>
+        <router-outlet></router-outlet>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 </div>

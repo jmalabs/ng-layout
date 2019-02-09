@@ -2,11 +2,16 @@
 
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
 
-
-body,
-html {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+app-root {
+  min-height: 100%;
 }
