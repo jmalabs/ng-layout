@@ -1,0 +1,14 @@
+<mat-toolbar color="primary" class="mat-elevation">
+  <!-- <button mat-icon-button (click)="sideNav.toggle()" fxHide.gt-xs> -->
+  <button mat-icon-button (click)="onMenuClick()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div class="brand">MY APP</div>
+  <div fxFlex fxLayout="row" fxLayoutAlign="flex-end" fxHide.xs>
+    <ul fxLayout="row" fxLayoutGap="2rem">
+      <li><a [routerLink]="['/home']">Home</a> </li>
+      <li><a [routerLink]="['/product']">Products</a> </li>
+      <li><a [routerLink]="['/login']">Logout</a> </li>
+    </ul>
+  </div>
+</mat-toolbar>

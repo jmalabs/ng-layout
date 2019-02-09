@@ -17,30 +17,8 @@ main {
   min-height: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:active,
-a:hover {
-  color: lightgray;
-}
-
-li {
-  list-style: none;
-}
 
 .brand {
   font-size: 1.75rem;
   font-weight: 800;
-}
-
-.link-caption {
-  display: inline-block;
-  margin: .5rem;
-}
-
-.link-icon {
-  color: #3f51b5;
 }

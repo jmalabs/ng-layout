@@ -1,0 +1,14 @@
+<mat-nav-list>
+  <a mat-list-item [routerLink]="['/home']" (click)="onSideNavToggle()">
+    <mat-icon class="link-icon">home</mat-icon>
+    <span class="link-caption">Home</span>
+  </a>
+  <a mat-list-item [routerLink]="['/product']" (click)="onSideNavToggle()">
+    <mat-icon class="link-icon">done</mat-icon>
+    <span class="link-caption">Products</span>
+  </a>
+  <a mat-list-item [routerLink]="['/login']" (click)="onSideNavToggle()">
+    <mat-icon class="link-icon">exit_to_app</mat-icon>
+    <span class="link-caption">Logout</span>
+  </a>
+</mat-nav-list>

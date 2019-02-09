@@ -8,13 +8,17 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { SignupComponent } from './signup/signup.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProductComponent,
-    SignupComponent
+    SignupComponent,
+    HeaderComponent,
+    SidenavListComponent
   ],
   imports: [
     BrowserModule,
